@@ -335,7 +335,7 @@ body {
 @media screen and (max-width: 1368px) {
     .delivery-system-wrapper {
         margin-top: 0rem;
-        padding: 40px 0px 40px 0px;
+        padding: 70px 0px 40px 0px;
     }
 }
 
@@ -357,9 +357,268 @@ body {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 0rem;
     }
-    .delivery-system-grid-row>div>h3{
+
+    .delivery-system-grid-row>div>h3 {
         font-size: 24px;
     }
 }
 
 /* delivery system css ends here */
+
+/* brring executive management component starts here */
+.brring-executive-wrapper {
+    padding: 40px 0px 40px 0px;
+    margin-top: 4rem;
+}
+
+.brring-executive-container {
+    position: relative;
+    top: 0%;
+}
+
+.tags-brring-executive {
+    color: #42B4E5;
+    font-family: 'Raleway_ExtraBold';
+    font-size: 16px;
+    letter-spacing: .5px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.headline-brring-executive {
+    font-family: 'Poppins_SemiBold';
+    text-align: center;
+    letter-spacing: .5px;
+    font-size: 32px;
+}
+
+.headline-brring-executive>span:nth-child(1) {
+    color: #3776FF;
+}
+
+.headline-brring-executive>span:nth-child(2) {
+    color: #023047;
+}
+
+.brring-executive-grid-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem;
+    margin-top: 3rem;
+}
+
+.brring-executive-grid-row>div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brring-leadership {
+    position: absolute;
+    top: -60px;
+    right: 250px;
+}
+
+.name-of-executive {
+    font-family: 'Raleway_ExtraBold';
+    letter-spacing: .5px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #3776FF;
+    font-size: 18px;
+    text-align: center;
+}
+
+.post-of-executive {
+    color: #4F4F4F;
+    font-family: 'Raleway_SemiBold';
+    letter-spacing: .5px;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.delivery-system-grid-row>div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .brring-leadership {
+        right: 0;
+    }
+
+    .brring-executive-grid-row {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .brring-executive-wrapper {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .brring-executive-grid-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .brring-executive-grid-row>div>img {
+        width: 120px;
+    }
+
+    .headline-brring-executive {
+        font-size: 28px;
+    }
+}
+
+/* brring executive management component ends here */
+
+/* misson vision css starts here */
+.mission--vision-wrapper {
+    background-image: url('../Images/Group 232.png');
+    height: auto;
+    display: flex;
+    padding: 80px 0px 80px 0px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.mission-vision-grid-row {
+    height: auto;
+    max-width: fit-content;
+}
+
+.mission-vision-grid-row>div {
+    height: auto;
+    background: linear-gradient(180deg, rgba(215, 226, 235, 0.17) 0%, rgba(255, 255, 255, 0) 83.33%);
+    padding: 30px 20px 30px 20px;
+    margin-bottom: 2rem;
+}
+
+.animated-link {
+    /* margin-top: 40px;
+    margin-bottom: 20px; */
+    max-width: 450px;
+    font-family: 'Poppins_SemiBold';
+    font-size: 26px;
+    letter-spacing: .5px;
+}
+
+.animated-link a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000000;
+    background-repeat: no-repeat;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    color: white;
+}
+
+.animated-link a:hover {
+    color: white;
+}
+
+.mission-vision-grid-row>div>p {
+    font-family: 'Raleway_Bold';
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: white;
+}
+
+.animated-link a {
+    background-image: linear-gradient(270deg, #F58300, #F58300);
+    background-size: 100%;
+    background-position: 0 25px;
+}
+
+@media screen and (max-width: 640px) {
+    .mission-vision-grid-row>div>p>br {
+        display: none;
+    }
+}
+
+/* mission vision css ends here */
+
+/* our customer css starts here */
+.our-customer-headline {
+    font-family: 'Poppins_SemiBold';
+    letter-spacing: .5px;
+    font-size: 28px;
+    color: #0E177A;
+    text-align: center;
+}
+
+.our-customer-headline>img {
+    width: 100px;
+}
+
+.our-customers-wrapper {
+    padding: 20px 0px 20px 0px;
+}
+
+.client-icons-grid-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.client-icons-grid-row>div {
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfb;
+}
+
+.client-icons-grid-row>div>div>img {
+    width: 120px;
+}
+
+.another-client-grid-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    max-width: fit-content;
+    margin: 1rem auto;
+}
+
+.another-client-grid-row>div {
+    height: auto;
+    padding: 10px 60px 10px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfb;
+}
+
+.another-client-grid-row>div>img {
+    width: 120px;
+}
+
+@media screen and (max-width:640px) {
+    .client-icons-grid-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .another-client-grid-row{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .client-icons-grid-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* our customer css ends here */
