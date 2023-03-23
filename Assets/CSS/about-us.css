@@ -1,0 +1,254 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* banner css starts here */
+.about-us-wrapper {
+    padding: 40px 0px 40px 0px;
+}
+
+.about-us-grid-row {
+    display: grid;
+    grid-template-columns: 4fr 1.5fr;
+    grid-gap: 2rem;
+}
+
+
+.about-us-grid-row>div:nth-child(2)>img {
+    width: 100%;
+}
+
+.about-us-tag-line {
+    background-color: #DCF4FF;
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.about-us-grid-row>div>h1 {
+    font-family: 'Poppins_SemiBold';
+    letter-spacing: .5px;
+    font-size: 38px;
+    background: radial-gradient(50% 50% at 50% 50%, #42B4E5 0%, #0E177A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: 1rem;
+}
+
+.about-us-tag-line>p {
+    margin-bottom: 0rem;
+    color: #00A0EA;
+    font-family: 'Raleway_ExtraBold';
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+
+.sub-head-one {
+    font-family: 'Raleway_Medium';
+    letter-spacing: .5px;
+    font-size: 16px;
+    color: #262626;
+    margin-top: 1rem;
+}
+
+.sub-head-two {
+    font-family: 'Raleway_Bold';
+    margin-bottom: 0rem;
+    letter-spacing: .5px;
+    font-size: 18px;
+    color: #262626;
+    margin-top: 1rem;
+}
+
+.sub-head-three {
+    font-family: 'Raleway_Medium';
+    letter-spacing: .5px;
+    font-size: 16px;
+    color: #262626;
+    margin-top: 0rem;
+}
+
+.about-btn {
+    background-color: #0E177A;
+    letter-spacing: .5px;
+    font-family: 'Raleway_SemiBold';
+    font-size: 16px;
+    color: #34CB81;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    .about-us-grid-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-us-grid-row>div>h1>br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-us-grid-row>div>h1 {
+        font-size: 28px;
+    }
+}
+
+.bottom-img-line {
+    width: 100%;
+}
+
+/* banner css ends here */
+
+/* quality of excellence css starts here */
+.quality-of-excellence-wrapper {
+    margin-top: 8rem;
+}
+
+.quality-of-excellence-grid-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+}
+
+.quality-of-excellence-grid-row>div:nth-child(1) {
+    /* border: 1px solid black; */
+    height: auto;
+    /* background-color: #FFB703; */
+    position: relative;
+}
+
+.quality-of-excellence-grid-row>div:nth-child(2) {
+    position: relative;
+    top: 0;
+    padding: 40px 0px 40px 0px;
+    top: 0;
+    z-index: 888888;
+}
+
+.absolt-img {
+    position: absolute;
+    right: -117px;
+    top: -75px;
+    z-index: -1;
+    width: 150px;
+}
+
+
+.quality-of-excellence-grid-row>div:nth-child(1)>img {
+    width: 100%;
+    position: absolute;
+    top: -105px;
+}
+
+.quality-of-excellence-wrapper {
+    background-color: #FFB703;
+}
+
+.absolt-wrapper {
+    position: absolute;
+    top: -110px;
+}
+
+.absolt-wrapper>h2 {
+    font-family: 'Poppins_SemiBold';
+    letter-spacing: .5px;
+    font-size: 32px;
+    background: radial-gradient(50% 50% at 50% 50%, #8ECAE6 0%, #002B6D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.absolt-wrapper>p {
+    font-family: 'Raleway_Medium';
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #0E177A;
+    margin-top: 1rem;
+}
+
+.bring-text {
+    font-family: 'Raleway_Medium';
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #262626;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+@media screen and (max-width: 1080px) {
+    .absolt-wrapper {
+        position: initial;
+        top: 0;
+    }
+
+    .quality-of-excellence-grid-row>div:nth-child(1)>img {
+        position: initial;
+    }
+
+    .quality-of-excellence-grid-row>div:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quality-of-excellence-wrapper {
+        margin-top: 0rem;
+    }
+
+    .absolt-img {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .quality-of-excellence-grid-row {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 0rem;
+    }
+
+    .quality-of-excellence-grid-row>div {
+        padding: 40px 0px 20px 0px;
+    }
+
+    .absolt-wrapper>h2 {
+        background: none;
+        color: #0E177A;
+        -webkit-text-fill-color: initial;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .absolt-wrapper>h2 {
+        font-size: 28px;
+    }
+}
+
+/* quality of excellence css ends here */
+
+/* delivery system css start here */
+.delivery-system-wrapper{
+    margin-top: 10rem;
+}
+
+@media screen and (max-width: 1080px) {
+    .delivery-system-wrapper{
+        margin-top: 0rem;
+    }
+}
+/* delivery system css ends here */

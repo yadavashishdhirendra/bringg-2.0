@@ -65,8 +65,8 @@
     box-sizing: border-box;
 }
 
-body,
-html {
+body {
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -426,11 +426,11 @@ ul {
     z-index: 9999;
     margin-right: 20px;
     padding: 8px 20px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
     background-color: #0E187E;
     color: #34CA81;
     font-family: 'Raleway_ExtraBold';
@@ -442,10 +442,14 @@ ul {
     position: relative;
     z-index: 9999;
     padding: 8px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'Raleway_ExtraBold';
     background-color: transparent;
     letter-spacing: .5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .h1-img {
@@ -631,11 +635,11 @@ ul {
     z-index: 9999;
     margin-right: 20px;
     padding: 8px 20px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
     background-color: #0E187E;
     color: #34CA81;
     font-family: 'Raleway_ExtraBold';
@@ -2312,12 +2316,12 @@ ul {
     font-size: 18px;
     color: #34CB81;
     padding: 7px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 
@@ -2329,12 +2333,12 @@ ul {
     font-size: 18px;
     color: #0E177A;
     padding: 7px 20px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
     margin-left: 1rem;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .ml {

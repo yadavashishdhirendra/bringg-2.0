@@ -5,7 +5,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $("#footers").load(
+    $("#footerss").load(
         "Assets/Include/footer.html"
     );
 });
