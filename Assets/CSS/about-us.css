@@ -191,6 +191,12 @@ body {
     margin: 1rem 0rem 1rem 0rem;
 }
 
+@media screen and (max-width:1290px) {
+    .absolt-img {
+        right: 0;
+    }
+}
+
 @media screen and (max-width: 1080px) {
     .absolt-wrapper {
         position: initial;
@@ -239,16 +245,121 @@ body {
     }
 }
 
+
 /* quality of excellence css ends here */
 
 /* delivery system css start here */
-.delivery-system-wrapper{
+.delivery-system-wrapper {
     margin-top: 10rem;
 }
 
+.delivery-system-grid-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+
+.list-grid-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: 1rem;
+}
+
+.list-grid-row>div {
+    height: auto;
+}
+
+.delivery-system-grid-row>div>h3 {
+    font-family: 'Poppins_SemiBold';
+    font-size: 28px;
+    letter-spacing: .5px;
+    background: radial-gradient(50% 50% at 50% 50%, #3776FF 0%, #002B6D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.delivery-para-one {
+    font-family: 'Raleway_Medium';
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #023047;
+    margin-top: 1rem;
+}
+
+.delivery-list-ul>li {
+    list-style-image: url('../Icons/image 335.png');
+    margin-bottom: 0.5rem;
+    font-family: 'Raleway_Medium';
+}
+
+.delivery-list-ul>li>span {
+    position: relative;
+    top: -5px;
+}
+
+.delivery-para-two {
+    color: #0E177A;
+    font-family: 'Raleway_Bold';
+    letter-spacing: .5px;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.delivery-para-three {
+    color: #252525;
+    font-family: 'Raleway_Medium';
+    letter-spacing: .5px;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.delivery-system-grid-row>div:nth-child(2)>img {
+    width: 100%;
+}
+
 @media screen and (max-width: 1080px) {
-    .delivery-system-wrapper{
+    .delivery-system-wrapper {
         margin-top: 0rem;
+        padding: 40px 0px 40px 0px;
     }
 }
+
+
+
+@media screen and (max-width: 1368px) {
+    .delivery-system-wrapper {
+        margin-top: 0rem;
+        padding: 40px 0px 40px 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .delivery-system-grid-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .delivery-system-grid-row>div>h3>br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .list-grid-row {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 0rem;
+    }
+    .delivery-system-grid-row>div>h3{
+        font-size: 24px;
+    }
+}
+
 /* delivery system css ends here */
