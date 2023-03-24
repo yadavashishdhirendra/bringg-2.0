@@ -2762,7 +2762,7 @@ footer {
 
     .new-list-revenue>ol,
     ul {
-        padding-left: 0.5rem;
+        padding-left: 1.5rem;
     }
 }
 
@@ -3075,11 +3075,84 @@ footer {
     .trusted-head>img {
         width: 50px;
     }
+
     .trusted-brand-grid-row>div>img {
         width: 100px;
     }
 }
 
 /* trusted brand component ends here */
+
+/* blogs component starts here */
+.blogs-wrapper {
+    padding: 0px 0px 20px 0px;
+}
+
+.blogs-head {
+    font-size: 28px;
+    letter-spacing: .5px;
+    font-family: 'Poppins_SemiBold';
+    text-align: center;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.blogs-grid-row {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 2rem;
+    margin-top: 3rem;
+}
+
+.blog-background-container>p:nth-child(1) {
+    font-family: 'Poppins_SemiBold';
+    letter-spacing: .5px;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+.blog-background-container>p:nth-child(2) {
+    font-family: 'Raleway_SemiBold';
+    letter-spacing: .5px;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.blog-background-container>p:nth-child(3) {
+    font-family: 'Raleway_Medium';
+    letter-spacing: .5px;
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-bottom: 0.5rem;
+}
+
+.blog-background-container {
+    background-color: #0E177A;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.blogs-main-banner {
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .blogs-grid-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .blogs-grid-row>div{
+        padding: 30px 0px 30px 0px;
+    }
+}
+
+/* blogs component ends here */
 
 /* homepage css ends here */
