@@ -1,0 +1,85 @@
+/* faqs banner css starts here */
+.faqs-banner-grid-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.faqs-banner-grid-row>div>img {
+    width: 100%;
+    border-bottom-left-radius: 68px;
+    border-bottom-right-radius: 68px;
+}
+
+.faqs-banner-grid-row>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 60px 0px 60px;
+    position: relative;
+    top: 0;
+    background-image: url('../Icons/image 663.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.faqs-banner-grid-row>div>h1 {
+    background: radial-gradient(50% 50% at 50% 50%, #00A0EA 0%, #002B6D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: 'Poppins_SemiBold';
+    letter-spacing: .5px;
+    font-family: 42px;
+}
+
+.faqs-banner-grid-row>div>p {
+    font-family: 'Raleway_SemiBold';
+    letter-spacing: .5px;
+    font-size: 16px;
+    color: #111111;
+    margin-top: 1rem;
+}
+
+.faqs-banner-grid-row>div>button {
+    background-color: #0E177A;
+    color: #34CB81;
+    font-family: 'Raleway_SemiBold';
+    letter-spacing: .5px;
+    font-size: 16px;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.faqs-banner-grid-row>div:nth-child(1)>img {
+    position: absolute;
+    width: 120px;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .faqs-banner-grid-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .faqs-banner-grid-row>div:nth-child(1) {
+        padding: 20px 10px 20px 10px;
+    }
+    .faqs-banner-grid-row>div>img {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+/* faqs banner css ends here */
