@@ -1,0 +1,182 @@
+/* clients testimonials css starts here */
+.clients-testimonials-wrapper {
+    background-image: url('../Images/image 457.png');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px 80px 0px;
+    position: relative;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.google-ratings-clients {
+    position: absolute;
+    right: 8%;
+    top: 15%;
+}
+
+.client-testimonials-bg {
+    background-color: #00A0EA;
+    padding: 8px 20px 8px 20px;
+    text-align: center;
+    align-self: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.client-testimonials-bg>p {
+    margin-bottom: 0rem;
+    font-family: 'Raleway_ExtraBold';
+    letter-spacing: .5px;
+    font-size: 16px;
+    color: white;
+}
+
+.clients-testimonials-wrapper>h1 {
+    font-family: 'Poppins_SemiBold';
+    font-size: 42px;
+    margin-top: 2rem;
+    letter-spacing: .5px;
+    background: radial-gradient(50% 50% at 50% 50%, #8ECAE6 0%, #424242 0.01%, #8ECAE6 0.02%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .google-ratings-clients {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .clients-testimonials-wrapper>h1>br {
+        display: none;
+    }
+
+    .clients-testimonials-wrapper>h1 {
+        font-size: 28px;
+    }
+
+    .clients-testimonials-wrapper {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+/* clients testimonials css ends here */
+
+/* cards grid css starts here */
+.testimonials-grid-wrapper {
+    padding: 40px 0px 40px 0px;
+}
+
+.testimonials-grid-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+/* upper side grid row css starts here */
+.upper-side-grid-row {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+
+.upper-side-grid-row>div:nth-child(1)>img {
+    width: 50px;
+    height: 50px;
+}
+
+.upper-side-grid-row>div:nth-child(2)>img {
+    width: 100px;
+    margin-top: 0.5rem;
+}
+
+.upper-side-grid-row>div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-side-grid-row>div:nth-child(2)>p:nth-child(1) {
+    margin-bottom: 0rem;
+    font-family: 'Raleway_ExtraBold';
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+
+.upper-side-grid-row>div:nth-child(2)>p:nth-child(2) {
+    margin-bottom: 0rem;
+    font-family: 'Raleway_Medium';
+    letter-spacing: .5px;
+    font-size: 14px;
+    color: #C7C7C7;
+}
+
+.stars>i {
+    color: #FDCC0D;
+}
+
+.stars {
+    margin-bottom: 0.5rem;
+}
+
+.client-emotions {
+    font-family: 'Raleway_Medium';
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #000;
+}
+
+.read-more {
+    color: #C7C7C7 !important;
+    text-decoration: none;
+    font-family: 'Raleway_SemiBold';
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1080px) {
+    .testimonials-grid-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .testimonials-grid-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .testimonials-grid-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonials-grid-col {
+        border: 3px solid #F7F7F7;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+}
+
+/* upper side grid row css ends here */
+
+/* cards grid css ends here */

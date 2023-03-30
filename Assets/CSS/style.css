@@ -116,6 +116,7 @@ body::-webkit-scrollbar-thumb {
 
 .navbar-contact-us>p>a {
     text-decoration: none;
+    color: #0E177A;
 }
 
 /* desktop navbar css starts here */
@@ -385,7 +386,7 @@ ul {
     background-clip: text;
     text-fill-color: transparent;
     font-family: 'Poppins_Bold';
-    font-size: 42px;
+    font-size: 52px;
     letter-spacing: .5px;
     position: relative;
     z-index: 99999;
@@ -394,7 +395,7 @@ ul {
 .banner-wrapper-col>p {
     font-family: 'Raleway_ExtraBold';
     margin: 15px 0px 15px 0px;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: .5px;
     color: #42B4E5;
     z-index: 9999;
@@ -407,6 +408,10 @@ ul {
     z-index: 99999;
 }
 
+.double-underline>img {
+    vertical-align: baseline;
+}
+
 .banner-wrapper-col>ol,
 .banner-ul {
     padding-left: 2rem;
@@ -417,7 +422,7 @@ ul {
     top: -8px;
     color: #262626;
     font-family: Raleway_Medium;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: .5px;
 }
 
@@ -426,7 +431,7 @@ ul {
     position: relative;
     z-index: 9999;
     margin-right: 20px;
-    padding: 8px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -523,7 +528,7 @@ ul {
 
 .eliminate-h2 {
     font-family: 'Poppins_SemiBold';
-    font-size: 32px;
+    font-size: 42px;
     letter-spacing: .5px;
     position: relative;
     z-index: 99999;
@@ -555,7 +560,7 @@ ul {
 
 .eliminate-card-grid-col>p:nth-child(1) {
     font-family: 'Poppins_ExtraLight';
-    font-size: 42px;
+    font-size: 52px;
     letter-spacing: .5px;
     margin-bottom: 0rem;
     color: #101010;
@@ -2170,6 +2175,14 @@ ul {
 
 .testimonial-wrapper {
     margin-top: 3rem;
+    position: relative;
+    top: 0%;
+}
+
+.testimonial-wrapper>.tesimonila-bann-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .text-center>h5 {
@@ -2482,7 +2495,7 @@ footer {
 }
 
 .main-ul-list>ul>li {
-    font-family: 'Raleway_ExtraBold';
+    font-family: 'Raleway_SemiBold';
     font-size: 16px;
     letter-spacing: .5px;
     color: white;
@@ -2572,10 +2585,17 @@ footer {
     color: #3776FF !important;
 }
 
+.brring-customer-benefits-wrapper>.container>h3 {
+    font-size: 28px;
+}
+
+.brring-customer-benefits-wrapper>.container>h3>span:nth-child(2) {
+    font-size: 28px;
+}
 
 .built-in-feature-headliness>span:nth-child(2) {
     font-family: 'Poppins_SemiBold';
-    font-size: 26px;
+    font-size: 28px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2587,7 +2607,7 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: initial;
     font-family: 'Poppins_SemiBold';
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .ellipes-built-in {
@@ -2781,7 +2801,7 @@ footer {
 }
 
 .carousel-head {
-    font-size: 28px;
+    font-size: 38px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2985,6 +3005,10 @@ footer {
         height: 30px;
     }
 
+    .carousel-head {
+        font-size: 28px;
+    }
+
     .owl-prev {
         left: -13px;
     }
@@ -3008,7 +3032,7 @@ footer {
 .trusted-head {
     font-family: 'Poppins_SemiBold';
     letter-spacing: .5px;
-    font-size: 28px;
+    font-size: 32px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3089,7 +3113,7 @@ footer {
 }
 
 .blogs-head {
-    font-size: 28px;
+    font-size: 32px;
     letter-spacing: .5px;
     font-family: 'Poppins_SemiBold';
     text-align: center;
@@ -3102,7 +3126,7 @@ footer {
 
 .blogs-grid-row {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 3fr 3fr;
     grid-gap: 2rem;
     margin-top: 3rem;
 }
@@ -3148,11 +3172,99 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
-    .blogs-grid-row>div{
+    .blogs-grid-row>div {
         padding: 30px 0px 30px 0px;
+    }
+
+    .blogs-head {
+        font-size: 28px;
+    }
+
+    .blogs-grid-row {
+        margin-top: 0rem;
     }
 }
 
 /* blogs component ends here */
 
 /* homepage css ends here */
+
+.view-all-clients>a>button {
+    background-color: #0E177A;
+    padding: 7px 20px;
+    color: #34CB81;
+    font-size: 18px;
+    font-size: 'Raleway_ExtraBold';
+    letter-spacing: .5px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.view-all-clients {
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.blogs-side-grid-row {
+    display: grid;
+    grid-template-columns: 2.5fr 3fr;
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.blogs-side-grid-row>div {
+    /* border: 1px solid black; */
+    height: auto;
+}
+
+.blogs-side-grid-row>div>img {
+    width: 100%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.blogs-side-grid-row>div>p {
+    font-family: 'Raleway_SemiBold';
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #0E177A;
+}
+
+.blogs-side-grid-row>div>button {
+    background-color: #088E74;
+    border: none;
+    width: 50px;
+    padding: 5px 0px 5px 0px;
+}
+
+.blogs-side-grid-row>div>button>i {
+    color: white;
+}
+
+.blogs-side-grid-row>div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .blogs-grid-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .blogs-side-grid-row {
+        grid-template-columns: 1fr;
+    }
+    .blogs-grid-row{
+        grid-gap: 0rem;
+    }
+}
