@@ -46,7 +46,7 @@
 .faqs-banner-grid-row>div>button {
     background-color: #0E177A;
     color: #34CB81;
-    font-family: 'Raleway_SemiBold';
+    font-family: 'Raleway_ExtraBold';
     letter-spacing: .5px;
     font-size: 16px;
     border: none;
@@ -76,6 +76,7 @@
     .faqs-banner-grid-row>div:nth-child(1) {
         padding: 20px 10px 20px 10px;
     }
+
     .faqs-banner-grid-row>div>img {
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
@@ -83,3 +84,104 @@
 }
 
 /* faqs banner css ends here */
+
+/* accordion menu css starts here */
+.accordion-wrapper {
+    padding: 40px 0px 40px 0px;
+}
+
+.accordion-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.accordionWrapper {
+    width: auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+.accordionItem {
+    display: block;
+    width: 100%;
+}
+
+.accordionItemHeading {
+    cursor: pointer;
+    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #0E177A;
+    font-family: 'Raleway_SemiBold';
+    width: 100%;
+
+    border-radius: 3px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordionItemHeading span {
+    float: right;
+    font-size: 35px;
+}
+
+.close .accordionItemContent {
+    height: 0px;
+    transition: height 1s ease-out;
+    transform: scaleY(0);
+    float: left;
+    display: block;
+
+
+}
+
+.open .accordionItemContent {
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    display: block;
+
+    transform: scaleY(1);
+
+    transform-origin: top;
+
+    transition: transform 0.4s ease;
+    box-sizing: border-box;
+}
+
+.open .accordionItemHeading {
+    margin: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.accordionItemContent>p {
+    font-family: 'Raleway_Medium';
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #6B6B6B;
+}
+
+@media screen and (max-width: 992px) {
+    .accordion-grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .accordionItemHeading{
+        font-size: 18px;
+    }
+}
+
+/* accordion menu css ends here */

@@ -148,21 +148,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 .get-a-quote {
-    border: 1px solid #111A7C;
+    border: 2px solid #111A7C;
     padding: 5px 20px 5px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: white;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
     font-family: 'Poppins_Medium';
     font-size: 16px;
     color: #111A7C;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .get-a-quote>a {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 16px;
     color: #111A7C;
     letter-spacing: .5px;
@@ -386,7 +387,7 @@ ul {
     background-clip: text;
     text-fill-color: transparent;
     font-family: 'Poppins_Bold';
-    font-size: 52px;
+    font-size: 48px;
     letter-spacing: .5px;
     position: relative;
     z-index: 99999;
@@ -456,6 +457,8 @@ ul {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: #0E187E;
 }
 
 .h1-img {
@@ -564,13 +567,20 @@ ul {
     letter-spacing: .5px;
     margin-bottom: 0rem;
     color: #101010;
+    font-weight: 600;
 }
 
 .eliminate-card-grid-col>p:nth-child(2) {
     color: #0E177A;
     font-family: 'Poppins_Medium';
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: .5px;
+}
+
+@media screen and (max-width: 640px) {
+    .eliminate-card-grid-col>p:nth-child(1) {
+        font-size: 42px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -604,13 +614,13 @@ ul {
 }
 
 .intra-city-grid-col>h1 {
-    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 24, 126, 0.53) 0%, #0E187E 100%);
+    background: radial-gradient(50% 50% at 50% 78%, rgba(14, 24, 126, 0.53) 0%, #0E187E 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
     font-family: 'Poppins_Bold';
-    font-size: 42px;
+    font-size: 48px;
     letter-spacing: .5px;
     position: relative;
     z-index: 99999;
@@ -619,7 +629,7 @@ ul {
 .intra-city-grid-col>p:nth-child(3) {
     font-family: 'Raleway_ExtraBold';
     margin: 15px 0px 15px 0px;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: .5px;
     color: #42B4E5;
     z-index: 9999;
@@ -640,7 +650,7 @@ ul {
     position: relative;
     z-index: 9999;
     margin-right: 20px;
-    padding: 8px 20px;
+    padding: 10px 20px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -668,7 +678,7 @@ ul {
 .intra-city-intro {
     background-color: #DCF4FF;
     display: inline-block;
-    padding: 8px 10px;
+    padding: 10px 20px;
     margin-bottom: 1rem;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -746,7 +756,7 @@ ul {
 
 .faster-delivery-grid-row>div>h3 {
     font-family: 'Poppins_SemiBold';
-    font-size: 32px;
+    font-size: 38px;
     margin-top: 1rem;
 }
 
@@ -761,8 +771,9 @@ ul {
     font-family: 'Raleway_ExtraBold';
     color: #34CB81;
     letter-spacing: .5px;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 0.5rem;
+    margin-top: 2rem;
 }
 
 .faster-list>ol,
@@ -783,6 +794,7 @@ ul {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .faster-list>li {
@@ -897,9 +909,9 @@ ul {
 
 .distribution-clone-inta-city {
     font-family: 'Poppins_SemiBold';
-    font-size: 28px;
+    font-size: 38px;
     margin-top: 1rem;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
+    background: radial-gradient(50% 50% at 50% 78%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -922,6 +934,7 @@ ul {
     top: -7%;
     left: -80px;
 }
+
 
 .distribution-clone-grid-row>div>.banner-sz {
     width: 100%;
@@ -949,10 +962,10 @@ ul {
 .bottom-container>p {
     text-align: center;
     margin-top: 2rem;
-    font-family: 'Raleway_ExtraBoldItalic';
+    font-family: 'Josefin Sans', sans-serif;
     color: #42B4E5;
     letter-spacing: .5px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .bottom-container>p>span {
@@ -979,10 +992,11 @@ ul {
 
 .numbering-grid-row>div>p:nth-child(1) {
     font-family: 'Poppins_ExtraLight';
-    font-size: 42px;
+    font-size: 52px;
     letter-spacing: .5px;
     margin-bottom: 0rem;
     color: #101010;
+    font-weight: 600;
 }
 
 .numbering-grid-row>div>p:nth-child(1)>img {
@@ -1024,7 +1038,7 @@ ul {
 
 @media screen and (max-width: 576px) {
     .numbering-grid-row>div>p:nth-child(1) {
-        font-size: 26px;
+        font-size: 42px;
     }
 
     .numbering-grid-row>div>p:nth-child(2) {
@@ -1060,7 +1074,7 @@ ul {
 }
 
 .bus-intro {
-    width: 650px;
+    width: 1000px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -1071,8 +1085,8 @@ ul {
 
 .built-in-feature-headline {
     font-family: 'Poppins_SemiBold';
-    font-size: 26px;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
+    font-size: 38px;
+    background: radial-gradient(50% 50% at 50% 78%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1171,7 +1185,7 @@ ul {
 
 .built-in-feature-headline>span {
     font-family: 'Poppins_ExtraBold';
-    font-size: 26px;
+    font-size: 38px;
     color: #00A0EA;
 }
 
@@ -1192,11 +1206,11 @@ ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
-    max-width: 850px;
-    margin: 2rem auto 2rem auto;
+    max-width: 950px;
+    margin: 5rem auto 2rem auto;
     padding: 0px 30px 0px 30px;
     background-color: #F7F7F7;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 20px 20px 20px;
     border-radius: 30px;
 }
 
@@ -1559,7 +1573,7 @@ ul {
 
 .brring-tech-h4 {
     font-family: 'Poppins_SemiBold';
-    font-size: 28px;
+    font-size: 32px;
     letter-spacing: .5px;
     text-align: center;
 }
@@ -1664,6 +1678,8 @@ ul {
 
 .new-demand-wrapper {
     margin-top: -160px;
+    position: relative;
+    top: 0;
 }
 
 .on-demand-p-tag {
@@ -1828,14 +1844,14 @@ ul {
 }
 
 .how-we-do h4 {
-    font-size: 28px;
+    font-size: 38px;
     font-family: 'Poppins_SemiBold';
     letter-spacing: .5px;
     margin-top: -1.5rem;
 }
 
 .h4-tag-how {
-    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
+    background: radial-gradient(50% 50% at 50% 78%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -2005,7 +2021,7 @@ ul {
 }
 
 .inside-class-white-bg>img {
-    margin-top: -2.5rem;
+    margin-top: -4.5rem;
 }
 
 .inside-class-white-bg>p:nth-child(2) {
@@ -2088,6 +2104,7 @@ ul {
     padding: 20px 50px 20px 50px;
     display: inline-block;
     border-radius: 20px;
+    padding: 40px 50px 40px 50px;
 }
 
 .slide>h5 {
@@ -2099,6 +2116,7 @@ ul {
     flex-direction: row;
     align-items: center;
     /* justify-content: center; */
+    margin-bottom: 1.5rem;
 }
 
 .slide>h5>img {
@@ -2132,13 +2150,13 @@ ul {
 }
 
 .btn-prev {
-    top: 38%;
-    left: 1%;
+    top: 52%;
+    left: 24%;
 }
 
 .btn-next {
-    top: 38%;
-    right: 1%;
+    top: 52%;
+    right: 24%;
 }
 
 .slide>img {
@@ -2180,9 +2198,17 @@ ul {
 }
 
 .testimonial-wrapper>.tesimonila-bann-img {
-    width: 100%;
+    width: 640px;
     position: absolute;
     top: 0;
+    left: 25px;
+}
+
+.testimonial-wrapper>.tesimonila-bann-imgs {
+    width: 640px;
+    position: absolute;
+    top: 21px;
+    right: 25px;
 }
 
 .text-center>h5 {
@@ -2190,12 +2216,12 @@ ul {
     margin-bottom: 2rem;
     font-family: 'Poppins_SemiBold';
     letter-spacing: .5px;
-    font-size: 24px;
+    font-size: 32px;
 
 }
 
 .text-center>h5>span:nth-child(1) {
-    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
+    background: radial-gradient(50% 50% at 50% 78%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -2206,15 +2232,42 @@ ul {
     color: #00A0EA;
 }
 
+@media screen and (max-width: 1080px) {
+    .slider {
+        width: 80%;
+    }
+
+    .btn-prev {
+        left: 5%;
+    }
+
+    .btn-next {
+        right: 5%;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .slider {
         max-width: 100% !important;
-        width: 100%;
+        width: 100% !important;
         /* height: 00px; */
     }
 
     .text-center>h5>br {
         display: none;
+    }
+
+    .btn-prev {
+        left: -100px;
+        right: 0;
+        margin: auto;
+        top: 93%;
+    }
+    .btn-next{
+        right: 0;
+        left: 0;
+        margin: auto;
+        top: 93%;
     }
 }
 
@@ -2586,17 +2639,17 @@ footer {
 }
 
 .brring-customer-benefits-wrapper>.container>h3 {
-    font-size: 28px;
+    font-size: 38px;
 }
 
 .brring-customer-benefits-wrapper>.container>h3>span:nth-child(2) {
-    font-size: 28px;
+    font-size: 38px;
 }
 
 .built-in-feature-headliness>span:nth-child(2) {
     font-family: 'Poppins_SemiBold';
-    font-size: 28px;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
+    font-size: 38px;
+    background: radial-gradient(50% 50% at 50% 78%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -2607,14 +2660,14 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: initial;
     font-family: 'Poppins_SemiBold';
-    font-size: 28px;
+    font-size: 38px;
 }
 
 .ellipes-built-in {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 0;
-    right: 300px;
+    right: 532px;
     margin: auto;
 }
 
@@ -2638,7 +2691,7 @@ footer {
 .brring-benefit-text-content>p:nth-child(1) {
     font-family: 'Poppins_SemiBold';
     letter-spacing: .5px;
-    font-size: 18px;
+    font-size: 22px;
     color: #0E187E;
     margin-bottom: 0rem;
 }
@@ -2648,7 +2701,7 @@ footer {
     font-family: 'Raleway_SemiBold';
     letter-spacing: .5px;
     font-size: 16px;
-    color: #262626;
+    color: #6B6B6B;
     margin-bottom: 0rem;
 }
 
@@ -2675,6 +2728,26 @@ footer {
 
     .brring-benefit-icon>img {
         width: 40px;
+    }
+
+    .brring-customer-benefits-wrapper>.container>h3 {
+        font-size: 32px;
+    }
+
+    .brring-customer-benefits-wrapper>.container>h3>span:nth-child(2) {
+        font-size: 32px;
+    }
+
+    .double-underline>img {
+        display: none;
+    }
+
+    .built-in-feature-headliness {
+        font-size: 32px;
+    }
+
+    .built-in-feature-headliness>span:nth-child(2) {
+        font-size: 32px;
     }
 }
 
@@ -2766,7 +2839,7 @@ footer {
     }
 
     .bring-partner-grids-row {
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 
     .bring-partner-grids-row {
@@ -2790,7 +2863,7 @@ footer {
 
 /* delivery drone carousel starts here */
 .delivery-drone-icon {
-    width: 150px;
+    width: 300px;
     align-self: center;
     text-align: center;
     display: flex;
@@ -2798,11 +2871,44 @@ footer {
     align-items: center;
     margin: -4.5rem auto;
     margin-bottom: 1rem;
+    transition: .3s all step-end;
+    -webkit-transition: .3s all step-end;
+    -moz-transition: .3s all step-end;
+    -ms-transition: .3s all step-end;
+    -o-transition: .3s all step-end;
+    animation: updown 3s infinite;
+    -webkit-animation: updown 3s infinite;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+    }
 }
 
 .carousel-head {
     font-size: 38px;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
+    background: radial-gradient(50% 50% at 50% 78%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -3033,7 +3139,7 @@ footer {
     font-family: 'Poppins_SemiBold';
     letter-spacing: .5px;
     font-size: 32px;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
+    background: radial-gradient(50% 50% at 50% 78%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -3117,7 +3223,7 @@ footer {
     letter-spacing: .5px;
     font-family: 'Poppins_SemiBold';
     text-align: center;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
+    background: radial-gradient(50% 50% at 50% 78%, rgba(14, 23, 122, 0.44) 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -3177,7 +3283,7 @@ footer {
     }
 
     .blogs-head {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .blogs-grid-row {
@@ -3190,18 +3296,20 @@ footer {
 /* homepage css ends here */
 
 .view-all-clients>a>button {
-    background-color: #0E177A;
-    padding: 7px 20px;
-    color: #34CB81;
-    font-size: 18px;
-    font-size: 'Raleway_ExtraBold';
-    letter-spacing: .5px;
     border: none;
+    position: relative;
+    z-index: 9999;
+    margin-right: 20px;
+    padding: 10px 30px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    background-color: #0E187E;
+    color: #34CA81;
+    font-family: 'Raleway_ExtraBold';
+    letter-spacing: .5px;
 }
 
 .view-all-clients {
@@ -3264,7 +3372,139 @@ footer {
     .blogs-side-grid-row {
         grid-template-columns: 1fr;
     }
-    .blogs-grid-row{
+
+    .blogs-grid-row {
         grid-gap: 0rem;
     }
 }
+
+/* HOME PAGE QUALITY CHECK CHANGES */
+.carousel-wrapper-inverted {
+    position: relative;
+    top: 0%;
+}
+
+.carousel-ellipse {
+    position: absolute;
+    top: -99px;
+    left: 0;
+    z-index: 99999;
+}
+
+.brring-customer-benefits-wrapper {
+    position: relative;
+    top: 0%;
+}
+
+.customer-benefits-ellipse {
+    position: absolute;
+    z-index: 66666;
+    right: 0;
+    top: -80px;
+}
+
+.brring-partner-wrapper {
+    position: relative;
+    z-index: 777777;
+}
+
+.eliminate-wrapper {
+    position: relative;
+    top: 0;
+}
+
+.eliminate-wrapper-ellipse {
+    position: absolute;
+    top: -495px;
+    left: 0;
+}
+
+.nav-link:hover {
+    color: #088E74;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .testimonial-wrapper {
+        max-width: 1440px;
+        margin: 4rem auto;
+    }
+}
+
+/* Intra city changes starts here */
+@media screen and (max-width: 576px) {
+    .built-in-feature-headline>span {
+        font-size: 32px;
+    }
+
+    .built-in-feature-headline {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .testimonial-wrapper>.tesimonila-bann-img {
+        display: none;
+    }
+
+    .testimonial-wrapper>.tesimonila-bann-imgs {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bus-intro {
+        width: 90%;
+    }
+}
+
+/* Intra city changes ends here */
+
+/* distribution as a service css starts here */
+.drop-down-arrow {
+    position: absolute;
+    bottom: -141px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.last-discover-container-wrapper {
+    margin-top: 6rem;
+}
+
+@media screen and (max-width: 576px) {
+    .distribution-clone-inta-city {
+        font-size: 32px;
+    }
+}
+
+.name-post-dummy-one{
+    font-family: 'Poppins_SemiBold';
+    letter-spacing: .5px;
+    font-size: 24px;
+    margin-bottom: 0rem;
+    color: #0E187E;
+    text-align: right;
+}
+
+.name-post-dummy-two{
+    font-family: 'Raleway_Medium';
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #C7C7C7;
+    text-align: right;
+}
+
+@media screen and (max-width: 576px) {
+    .slide{
+        padding: 40px 20px 40px 20px;
+    }
+}
+/* distribution as a service css ends here */

@@ -34,8 +34,8 @@ body {
 .about-us-grid-row>div>h1 {
     font-family: 'Poppins_SemiBold';
     letter-spacing: .5px;
-    font-size: 38px;
-    background: radial-gradient(50% 50% at 50% 50%, #42B4E5 0%, #0E177A 100%);
+    font-size: 48px;
+    background: radial-gradient(50% 50% at 50% 78%, #42B4E5 0%, #0E177A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -167,8 +167,8 @@ body {
 .absolt-wrapper>h2 {
     font-family: 'Poppins_SemiBold';
     letter-spacing: .5px;
-    font-size: 32px;
-    background: radial-gradient(50% 50% at 50% 50%, #8ECAE6 0%, #002B6D 100%);
+    font-size: 38px;
+    background: radial-gradient(50% 50% at 50% 78%, #8ECAE6 0%, #002B6D 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -273,9 +273,9 @@ body {
 
 .delivery-system-grid-row>div>h3 {
     font-family: 'Poppins_SemiBold';
-    font-size: 28px;
+    font-size: 38px;
     letter-spacing: .5px;
-    background: radial-gradient(50% 50% at 50% 50%, #3776FF 0%, #002B6D 100%);
+    background: radial-gradient(50% 50% at 50% 78%, #3776FF 0%, #002B6D 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -305,9 +305,9 @@ body {
     color: #0E177A;
     font-family: 'Raleway_Bold';
     letter-spacing: .5px;
-    font-size: 16px;
+    font-size: 28px;
     margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: -0.5rem;
 }
 
 .delivery-para-three {
@@ -389,7 +389,7 @@ body {
     font-family: 'Poppins_SemiBold';
     text-align: center;
     letter-spacing: .5px;
-    font-size: 32px;
+    font-size: 38px;
 }
 
 .headline-brring-executive>span:nth-child(1) {
@@ -550,7 +550,7 @@ body {
 .our-customer-headline {
     font-family: 'Poppins_SemiBold';
     letter-spacing: .5px;
-    font-size: 28px;
+    font-size: 38px;
     color: #0E177A;
     text-align: center;
 }
