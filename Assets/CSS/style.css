@@ -93,9 +93,18 @@ body::-webkit-scrollbar-thumb {
     z-index: 9999999;
 }
 
+header{
+    position: relative;
+    z-index: 888888;
+}
+
 .navbar-contact-us {
     background: rgba(0, 160, 234, 0.14);
     height: auto;
+}
+
+.navbar-brand>img{
+    width: 180px;
 }
 
 .navbar-contact-us>p {
@@ -160,6 +169,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 16px;
     color: #111A7C;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    white-space: nowrap;
 }
 
 .get-a-quote>a {
@@ -212,7 +222,7 @@ body::-webkit-scrollbar-thumb {
 
 .navigation__button {
     position: absolute;
-    top: 3rem;
+    top: -5rem;
     right: 1.5rem;
     height: 3rem;
     width: 3rem;
@@ -227,7 +237,7 @@ body::-webkit-scrollbar-thumb {
 
 .navigation__background {
     position: absolute;
-    top: 3.5rem;
+    top: -4.5rem;
     right: 2rem;
     height: 3rem;
     width: 3rem;
@@ -237,6 +247,11 @@ body::-webkit-scrollbar-thumb {
     background-position: center;
     z-index: 100;
     transition: all 800ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.navigation{
+    position: relative;
+    z-index: 999999;
 }
 
 

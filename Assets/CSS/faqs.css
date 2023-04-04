@@ -92,8 +92,8 @@
 
 .accordion-grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 5rem;
 }
 
 .accordionWrapper {
@@ -115,7 +115,7 @@
     font-size: 22px;
     font-weight: 400;
     color: #0E177A;
-    font-family: 'Raleway_SemiBold';
+    font-family: 'Poppins_SemiBold';
     width: 100%;
 
     border-radius: 3px;
@@ -129,6 +129,17 @@
 .accordionItemHeading span {
     float: right;
     font-size: 35px;
+    background-color: #c7c7c7;
+    border-radius: 60px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordionItemHeading>span>img{
+    width: 18px;
 }
 
 .close .accordionItemContent {
@@ -172,14 +183,52 @@
     color: #6B6B6B;
 }
 
+.accordion-grid-container>div:nth-child(2)>img {
+    width: 100%;
+}
+
+.accordion-grid-container>div:nth-child(2)>h3 {
+    font-family: 'Poppins_SemiBold';
+    letter-spacing: .5px;
+    font-size: 28px;
+    color: #002B6D;
+}
+
+.accordion-grid-container>div:nth-child(2)>h3>span {
+    color: #34CB81;
+}
+
+.accordion-grid-container>div:nth-child(2)>p {
+    font-family: 'Raleway_Medium';
+    font-size: 16px;
+}
+
+.accordion-grid-container>div:nth-child(2)>a>button {
+    border: 2px solid #111A7C;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'Poppins_Medium';
+    font-size: 16px;
+    color: #111A7C;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 @media screen and (max-width: 992px) {
     .accordion-grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
+    .accordionItemHeading span{
+       background-color: transparent;
+}
 }
 
 @media screen and (max-width: 576px) {
-    .accordionItemHeading{
+    .accordionItemHeading {
         font-size: 18px;
     }
 }
