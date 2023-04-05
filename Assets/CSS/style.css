@@ -104,7 +104,7 @@ header {
 }
 
 .navbar-brand>img {
-    width: 180px;
+    width: 210px;
 }
 
 .navbar-contact-us>p {
@@ -143,6 +143,8 @@ header {
     font-family: 'Poppins_SemiBold';
     color: #2F2F2F;
     letter-spacing: .5px;
+    font-size: 14px;
+    line-height: 1.9;
 }
 
 .navbar-toggler-icon>i {
@@ -192,10 +194,12 @@ header {
 .navbar {
     background: #FFFFFF;
     box-shadow: 0px 2px 0px rgba(189, 189, 189, 0.25);
+    height: 80px;
 }
 
 .dropdown-menu {
-    box-shadow: 0px 2px 0px rgba(189, 189, 189, 0.25);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
     border: 1px solid #F7F7F7;
     border-radius: 0px;
 }
@@ -539,7 +543,7 @@ ul {
 
 /* card component starts here */
 .eliminate-wrapper {
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 60px 0px;
     position: relative;
     top: 0;
 }
@@ -919,7 +923,7 @@ ul {
 .distribution-clone-grid-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 4rem;
 }
 
 .distribution-clone-inta-city {
@@ -1629,9 +1633,9 @@ ul {
 }
 
 .grid-technology-row>div>p {
-    font-size: 16px;
+    font-size: 20px;
     color: #16207F;
-    font-family: 'Raleway_Medium';
+    font-family: 'Raleway_ExtraBold';
     letter-spacing: .5px;
     margin-top: 2rem;
     text-align: center;
@@ -1926,8 +1930,8 @@ ul {
     color: #1A3257;
     font-family: 'Poppins_SemiBold';
     letter-spacing: .5px;
-    font-size: 18px;
-    margin-top: 1rem;
+    font-size: 20px;
+    margin: 28px 0px 10px;
 }
 
 .short-temp>p {
@@ -2523,6 +2527,7 @@ footer {
     grid-gap: 4rem;
     max-width: 1400px;
     margin: auto;
+    padding-bottom: 2rem;
 }
 
 
@@ -2536,7 +2541,7 @@ footer {
 
 .footer-grid-row>div:nth-child(1)>p:nth-child(2) {
     color: white;
-    font-family: 'Raleway_SemiBold';
+    font-family: 'Raleway_Medium';
     font-size: 14px;
     letter-spacing: .5px;
     margin-top: 1rem;
@@ -2553,9 +2558,9 @@ footer {
 
 .main-link>a>p {
     margin-bottom: 0.5rem;
-    font-family: 'Raleway_SemiBold';
+    font-family: 'Raleway_Medium';
     letter-spacing: .5px;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
 }
 
@@ -2564,11 +2569,11 @@ footer {
 }
 
 .main-ul-list>ul>li {
-    font-family: 'Raleway_SemiBold';
-    font-size: 16px;
+    font-family: 'Raleway_Medium';
+    font-size: 14px;
     letter-spacing: .5px;
     color: white;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
 }
 
 .main-ul-list>ul>li:nth-child(1) {
@@ -2997,7 +3002,7 @@ footer {
 
 .item>p:nth-child(3) {
     font-family: 'Raleway_Medium';
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: .5px;
     color: #2B2B2B;
     margin-bottom: 0.5rem;
@@ -3626,12 +3631,12 @@ figure.snip1192 .author h5 span {
     letter-spacing: .5px;
 }
 
-.testimonial-clients-say{
+.testimonial-clients-say {
     padding: 30px 0px 30px 0px;
     background-color: #F3F3F3;
 }
 
-.clients-say{
+.clients-say {
     font-size: 32px;
     font-family: 'Poppins_SemiBold';
     letter-spacing: .5px;
@@ -3642,21 +3647,63 @@ figure.snip1192 .author h5 span {
 
 
 @media screen and (max-width: 992px) {
-    .testimonial-figure-wrapper{
-        grid-template-columns: repeat(2,1fr);
+    .testimonial-figure-wrapper {
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 0rem;
     }
 }
 
 @media screen and (max-width: 640px) {
-    .testimonial-figure-wrapper{
-        grid-template-columns: repeat(1,1fr);
+    .testimonial-figure-wrapper {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
 @media screen and (max-width: 576px) {
-    .clients-say{
+    .clients-say {
         font-size: 26px;
     }
 }
+
 /* last testimonial homepage card container css ends here */
+
+/* new Update Homepage css starts here */
+@media (min-width: 1400px) {
+
+    .navbar-container {
+        max-width: 1440px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .navbar-container {
+        max-width: 1080px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-brand>img {
+        width: 165px;
+    }
+}
+
+.icon-percent::after{
+    content: "%";
+    display: inline-block;
+}
+
+.footer-logo{
+    width: 200px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* new update Homepage css ends here */
