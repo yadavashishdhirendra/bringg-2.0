@@ -2530,6 +2530,13 @@ footer {
     padding-bottom: 2rem;
 }
 
+.footer-grid-row>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
 
 .footer-grid-row>div:nth-child(1)>p:nth-child(1) {
     color: white;
