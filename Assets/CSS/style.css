@@ -2714,24 +2714,25 @@ footer {
 }
 
 .brring-benefit-icon>img {
-    width: 60px;
-    margin-bottom: 0.8rem;
+    width: 120px;
+    margin-bottom: -0.5rem;
+    margin-left: -30px;
 }
 
 .brring-benefit-text-content>p:nth-child(1) {
     font-family: 'Poppins_SemiBold';
-    letter-spacing: .5px;
+    /* letter-spacing: .5px; */
     font-size: 22px;
     color: #0E187E;
-    margin-bottom: 0rem;
+    margin: 10px 0px 10px 0px;
 }
 
 
 .brring-benefit-text-content>p:nth-child(2) {
     font-family: 'Raleway_SemiBold';
     letter-spacing: .5px;
-    font-size: 16px;
-    color: #6B6B6B;
+    font-size: 15px;
+    color: #2B2B2B;
     margin-bottom: 0rem;
 }
 
@@ -2949,11 +2950,14 @@ footer {
 }
 
 .carousel-p-tag {
-    font-family: 'Raleway_Medium';
-    letter-spacing: .5px;
-    font-size: 16px;
     text-align: center;
-    color: #2B2B2B;
+    font-family: 'Raleway_ExtraBold';
+    margin: 10px 0px 15px 0px;
+    font-size: 18px;
+    letter-spacing: .5px;
+    color: #42B4E5;
+    z-index: 9999;
+    position: relative;
 }
 
 .carousel-container {
@@ -3431,6 +3435,7 @@ footer {
     z-index: 66666;
     right: 0;
     top: -80px;
+    opacity: 0.4;
 }
 
 .brring-partner-wrapper {
@@ -3630,6 +3635,7 @@ figure.snip1192 .author h5 {
     color: #00A0EA;
     font-family: 'Raleway_ExtraBold';
     letter-spacing: .5px;
+    text-transform: capitalize;
 }
 
 figure.snip1192 .author h5 span {
