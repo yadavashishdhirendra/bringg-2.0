@@ -96,7 +96,7 @@ body {
     -o-transition: 0.1s ease-in;
 }
 
-.about-btn:hover{
+.about-btn:hover {
     background-color: #088E74;
     color: white;
 }
@@ -737,19 +737,31 @@ body {
         margin: auto;
     }
 
-    .modal.show .modal-dialog{
+    .modal.show .modal-dialog {
         padding: 0px 30px 0px 30px;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .modal.show .modal-dialog{
+    .modal.show .modal-dialog {
         padding: 0px 10px 0px 10px;
     }
-    .modal-grid-row>div:nth-child(2)>h5{
+
+    .modal-grid-row>div:nth-child(2)>h5 {
         font-size: 28px;
     }
-    .modal-grid-row>div>img{
+
+    .modal-grid-row>div>img {
         width: 100%;
     }
+}
+
+.modal-body {
+    padding: 30px 30px 30px 30px;
+}
+
+.modal-grid-row>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
