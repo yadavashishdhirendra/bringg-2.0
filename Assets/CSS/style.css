@@ -380,7 +380,7 @@ ul {
 
 
 .banner-wrapper-col:nth-child(1) {
-    padding: 40px 0px 40px 80px;
+    padding: 80px 0px 40px 40px;
     position: relative;
     top: 0;
 }
@@ -461,6 +461,7 @@ ul {
     color: #34CA81;
     font-family: 'Raleway_ExtraBold';
     letter-spacing: .5px;
+    margin-top: 10px;
 }
 
 .banner-btn2 {
@@ -546,6 +547,7 @@ ul {
     padding: 20px 0px 60px 0px;
     position: relative;
     top: 0;
+    background: linear-gradient(104.05deg, #6e9cffa1 8.28%, #96DDFB 52.86%, #34ca8166 105.49%);
 }
 
 .eliminate-h2 {
@@ -2663,7 +2665,7 @@ footer {
 }
 
 .BRRING {
-    color: #3776FF !important;
+    color: #00A0EA !important;
 }
 
 .brring-customer-benefits-wrapper>.container>h3 {
@@ -3444,6 +3446,7 @@ footer {
 .eliminate-wrapper-ellipse {
     position: absolute;
     top: -495px;
+    opacity: 0.6;
     left: 0;
 }
 
@@ -3640,7 +3643,7 @@ figure.snip1192 .author h5 span {
 
 .testimonial-clients-say {
     padding: 30px 0px 30px 0px;
-    background-color: #F3F3F3;
+    background: linear-gradient(358deg, white, #eaeaea);
 }
 
 .clients-say {
