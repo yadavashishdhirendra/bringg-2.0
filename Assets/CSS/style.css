@@ -172,6 +172,16 @@ header {
     color: #111A7C;
     box-shadow: 1px 2px 5px #d0d0d0;
     white-space: nowrap;
+    transition: 0.1s all ease-in;
+    -webkit-transition: 0.1s all ease-in;
+    -moz-transition: 0.1s all ease-in;
+    -ms-transition: 0.1s all ease-in;
+    -o-transition: 0.1s all ease-in;
+}
+
+.get-a-quote:hover{
+    background-color: #3776FF;
+    color: white !important;
 }
 
 .get-a-quote>a {
@@ -179,6 +189,10 @@ header {
     font-size: 16px;
     color: #111A7C;
     letter-spacing: .5px;
+}
+
+.get-a-quote:hover.get-a-quote>a{
+    color: white;
 }
 
 .dropdown-item:hover,
