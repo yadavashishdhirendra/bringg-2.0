@@ -104,7 +104,7 @@ header {
 }
 
 .navbar-brand>img {
-    width: 210px;
+    width: 170px;
 }
 
 .navbar-contact-us>p {
@@ -113,7 +113,7 @@ header {
     color: #111A7C;
     font-family: 'Raleway_SemiBold';
     margin-bottom: 0rem;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 20px 5px 20px;
 }
 
 @media screen and (max-width: 576px) {
@@ -159,18 +159,18 @@ header {
 }
 
 .get-a-quote {
-    border: 2px solid #111A7C;
-    padding: 5px 20px 5px 20px;
+    border: 1px solid #111A7C;
+    padding: 10px 20px;
     border-radius: 5px;
     background-color: white;
-    -webkit-border-radius: 5px;
+    -webkit-border-radius: 2px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     font-family: 'Poppins_Medium';
-    font-size: 16px;
+    font-size: 14px;
     color: #111A7C;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: 1px 2px 5px #d0d0d0;
     white-space: nowrap;
 }
 
@@ -2530,7 +2530,7 @@ footer {
     padding-bottom: 2rem;
 }
 
-.footer-grid-row>div{
+.footer-grid-row>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3701,16 +3701,13 @@ figure.snip1192 .author h5 span {
     }
 }
 
-.icon-percent::after{
+.icon-percent::after {
     content: "%";
     display: inline-block;
 }
 
-.footer-logo{
+.footer-logo {
     width: 200px;
-    background-color: white;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 /* new update Homepage css ends here */
