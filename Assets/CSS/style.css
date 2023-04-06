@@ -2658,8 +2658,8 @@ footer {
 
 /* homepage css starts here */
 .brring-customer-benefits-wrapper {
-    background: linear-gradient(180deg, #EAF8FF 0%, #F0FFF8 100%);
-    padding: 40px 0px 40px 0px;
+    background: linear-gradient(180deg, #cde6f2 0%, #e6efeb 100%);
+    padding: 80px 0px 40px 0px;
     position: relative;
     top: 0;
 }
@@ -2695,7 +2695,7 @@ footer {
 
 .ellipes-built-in {
     position: absolute;
-    top: 10px;
+    top: 35px;
     left: 0;
     right: 532px;
     margin: auto;
