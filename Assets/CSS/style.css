@@ -3240,7 +3240,7 @@ footer {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    padding-left: 2.2rem;
+    /* padding-left: 2.2rem; */
 }
 
 .trusted-head>span {

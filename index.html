@@ -31,6 +31,47 @@
         html {
             overflow-x: hidden;
         }
+
+        .slide-infinite img {
+            width: 180px;
+            animation: scroll 60s linear infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slide-track {
+            width: 100%;
+            display: flex;
+            gap: 5em;
+            overflow: hidden;
+        }
+
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translatex(-1000%)
+            }
+        }
+
+        @media screen and (max-width: 992px) {
+            .slide-infinite img{
+                width: 200px;
+            }
+            .slide-track{
+                gap: 2em;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            .slide-infinite img{
+                width: 150px;
+            }
+        }
     </style>
 </head>
 
@@ -44,8 +85,7 @@
         </div>
         <nav class="navbar navbar-expand-lg">
             <div class="container navbar-container">
-                <a class="navbar-brand" href="index.html"><img src="./Assets/Icons/Brring-Logo.png"
-                        alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="./Assets/Icons/Brring-Logo.png" alt=""></a>
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -176,7 +216,7 @@
                     <li><span>Fast and reliable shipment</span></li>
                     <li><span>Wide coverage</span></li>
                 </ul>
-                <a href=""><button class="banner-btn1">Get started</button></a>
+                <a href=""><button class="banner-btn1">Contact Sales</button></a>
                 <!-- <a href=""><button class="banner-btn2">Speak to sales</button></a> -->
                 <img class="vector-top"
                     src="./Assets/Images/stock-photo-big-lorry-delivery-truck-x-ray-near-about-garage-storage-warehouses-isolated-sketch-d-render-on-352059140-transformed 1.png"
@@ -240,11 +280,13 @@
             <div class="brring-customer-grid-row-benefit">
                 <div>
                     <div class="brring-benefit-icon">
-                        <img src="./Assets/Icons/Group 253-11.png" alt="">
+                        <img src="./Assets/Icons/Group 259-11.png" alt="">
                     </div>
                     <div class="brring-benefit-text-content">
-                        <p>No Break In Temperature</p>
-                        <p>Maintain temperature in storage, product handling and transit.</p>
+                        <p>Optimized Inventory Management
+                        </p>
+                        <p>Reduce inventory, monitor stock freshness and traceability, and reduce damages.
+                        </p>
                     </div>
                 </div>
                 <div>
@@ -258,17 +300,6 @@
                 </div>
                 <div>
                     <div class="brring-benefit-icon">
-                        <img src="./Assets/Icons/Group 259-11.png" alt="">
-                    </div>
-                    <div class="brring-benefit-text-content">
-                        <p>Optimized Inventory Management
-                        </p>
-                        <p>Reduce inventory, monitor stock freshness and traceability, and reduce damages.
-                        </p>
-                    </div>
-                </div>
-                <div>
-                    <div class="brring-benefit-icon">
                         <img src="./Assets/Icons/Group 259 (1)-1112.png" alt="">
                     </div>
                     <div class="brring-benefit-text-content">
@@ -276,6 +307,15 @@
                         </p>
                         <p>End-to-end cold chain distribution with live access.
                         </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="brring-benefit-icon">
+                        <img src="./Assets/Icons/Group 253-11.png" alt="">
+                    </div>
+                    <div class="brring-benefit-text-content">
+                        <p>No Break In Temperature</p>
+                        <p>Maintain temperature in storage, product handling and transit.</p>
                     </div>
                 </div>
                 <div>
@@ -406,44 +446,86 @@
         <div class="container">
             <h5 class="trusted-head">Trusted by <span>200+</span> Top Online Brands in India <img
                     src="./Assets/Images/image 299.png" alt=""></h5>
-            <div class="trusted-brand-grid-row">
-                <div>
+            <!-- <div class="trusted-brand-grid-row">
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 300.png" alt="">
                 </div>
-                <div>
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 301.png" alt="">
                 </div>
-                <div>
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 302.png" alt="">
                 </div>
-                <div>
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 303.png" alt="">
                 </div>
-                <div>
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 304.png" alt="">
                 </div>
-                <div>
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 296.png" alt="">
                 </div>
-                <div>
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 300.png" alt="">
                 </div>
-                <div>
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 301.png" alt="">
                 </div>
-                <div>
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 302.png" alt="">
                 </div>
-                <div>
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 303.png" alt="">
                 </div>
-                <div>
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 304.png" alt="">
                 </div>
-                <div>
+                <div class="slide-infinite">
                     <img src="./Assets/Icons/image 296.png" alt="">
+                </div>
+            </div> -->
+            <!-- owl carousel clients component starts here -->
+            <div class="slider-infinite">
+                <div class="slide-track">
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 300.png" alt="">
+                    </div>
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 301.png" alt="">
+                    </div>
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 302.png" alt="">
+                    </div>
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 303.png" alt="">
+                    </div>
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 304.png" alt="">
+                    </div>
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 296.png" alt="">
+                    </div>
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 300.png" alt="">
+                    </div>
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 301.png" alt="">
+                    </div>
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 302.png" alt="">
+                    </div>
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 303.png" alt="">
+                    </div>
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 304.png" alt="">
+                    </div>
+                    <div class="slide-infinite">
+                        <img src="./Assets/Icons/image 296.png" alt="">
+                    </div>
                 </div>
             </div>
+            <!-- owl carousel clients component ends here -->
             <div class="view-all-clients">
                 <a href="">
                     <button>View All</button>
