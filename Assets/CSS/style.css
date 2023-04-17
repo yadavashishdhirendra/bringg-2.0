@@ -98,35 +98,71 @@ header {
     z-index: 888888;
 }
 
-.navbar-contact-us {
-    background: rgba(0, 160, 234, 0.14);
-    height: auto;
-}
 
 .navbar-brand>img {
     width: 170px;
 }
 
-.navbar-contact-us>p {
+.navbar-contact{
+    background: rgba(0, 160, 234, 0.14);
+    height: auto;
+}
+
+.navbar-contact-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px 5px 20px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.navbar-contact-us>p:nth-child(1){
+    font-family: 'Poppins_SemiBold'; 
+    font-size: 16px;
+    margin-bottom: 0rem;
+    color: #0E187E;
+}
+
+.navbar-contact-us>p>img{
+    vertical-align: middle;
+}
+
+.navbar-contact-us>p>span{
+    color: #F58300;
+}
+
+.navbar-contact-us>p:nth-child(2){
+    font-family: 'Poppins_SemiBold'; 
+    font-size: 16px;
+    margin-bottom: 0rem;
+    color: #0E187E;
+}
+
+.navbar-contact-us>p:nth-child(3){
+    font-family: 'Poppins_SemiBold'; 
+    font-size: 16px;
+    margin-bottom: 0rem;
+    color: #0E187E;
+}
+
+/* .navbar-contact-us>p {
     text-align: right;
     font-size: 16px;
     color: #111A7C;
     font-family: 'Raleway_SemiBold';
     margin-bottom: 0rem;
     padding: 5px 20px 5px 20px;
-}
+} */
 
-@media screen and (max-width: 576px) {
-    .navbar-contact-us>p {
-        overflow: scroll;
+@media screen and (max-width: 992px) {
+    .navbar-contact-us {
         white-space: nowrap;
+        overflow-x: scroll;
+        column-gap: 80px;
     }
 }
 
-.navbar-contact-us>p>a {
-    text-decoration: none;
-    color: #0E177A;
-}
 
 /* desktop navbar css starts here */
 .nav-item {
